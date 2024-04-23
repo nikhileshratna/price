@@ -11,7 +11,7 @@ const Home = () => {
     if(interest == 100){
         x =0.1
     }
-    let y = gst ? (114.28653 * doctorPrice) / x : (133.7335334 * doctorPrice) / x;
+    let y = gst ? (133.7335334 * doctorPrice) / x : (133.7335334 * doctorPrice) / x;
     setPriceonUI(y);
   }, [doctorPrice, interest, gst]);
 
